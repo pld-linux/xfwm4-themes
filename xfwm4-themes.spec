@@ -12,8 +12,8 @@ Source1:	http://ep09.pld-linux.org/~havner/xfwm4-theme-crystal.tar.gz
 Source2:	http://ep09.pld-linux.org/~havner/xfwm4-theme-plastik.tar.gz
 # Source2-md5:	abd9c2a105ccddf08dec8f860e37abb2
 URL:		http://www.xfce.org/
-BuildRequires:  autoconf
-BuildRequires:  automake
+BuildRequires:	autoconf
+BuildRequires:	automake
 Requires:	xfwm4
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
