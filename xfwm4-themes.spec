@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	ftp://ftp.berlios.de/pub/xfce-goodies/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	63c091efdba452191ea990f92c7302d2
+# Source0-md5:	cf586cb704735480d7d152802a59e5e2
 Source1:	http://lo1sanok.eu.org/~troll/PLD/xfwm4-themes/xfwm4-theme-crystal.tar.gz
 # Source1-md5:	80b0e81b4e70e530d5679f5a5dd41395
 Source2:	http://lo1sanok.eu.org/~troll/PLD/xfwm4-themes/xfwm4-theme-plastik.tar.gz
