@@ -1,15 +1,15 @@
 #
-%define		snap 20040616
+%define		_snap 20040806
 #
 Summary:	Additional themes for xfwm4
 Summary(pl):	Dodatkowe motywy do xfwm4
 Name:		xfwm4-themes
-Version:	4.1.0
-Release:	0.%{snap}.1
+Version:	4.2.0
+Release:	0.%{_snap}.1
 License:	GPL
 Group:		X11/Applications
-Source0:	%{name}-snap-%{snap}.tar.bz2
-# Source0-md5:	8e8878dd011e2ee16a78f575e1b527b6
+Source0:	http://ep09.pld-linux.org/~havner/xfce4/%{name}-%{_snap}.tar.bz2
+# Source0-md5:	ec456c942be30f3596bdc23e35668fdb
 URL:		http://www.xfce.org/
 BuildRequires:  autoconf
 BuildRequires:  automake
@@ -24,7 +24,7 @@ A set of additional themes for the xfwm4 window manager.
 Zbiór dodatkowych tematów dla zarz±dcy okien xfwm4.
 
 %prep
-%setup -q -n %{name} -a1 -a2
+%setup -q -n %{name}
 
 %build
 %{__aclocal}
