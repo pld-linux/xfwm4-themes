@@ -1,12 +1,12 @@
 Summary:	Additional themes for xfwm4
 Summary(pl):	Dodatkowe motywy do xfwm4
 Name:		xfwm4-themes
-Version:	4.0.0
-Release:	2
+Version:	4.0.3
+Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.xfce.org/archive/xfce-%{version}/src/%{name}-%{version}.tar.gz
-# Source0-md5:	f9c0d0b053122ec4f20a76257d6607d1
+# Source0-md5:	96f17790120c74fcc5ab9e0c53cb7ba8
 Source1:	http://www.prox.pl/~troll/PLD/xfwm4-themes/xfwm4-theme-crystal.tar.gz
 # Source1-md5:	80b0e81b4e70e530d5679f5a5dd41395
 Source2:	http://www.prox.pl/~troll/PLD/xfwm4-themes/xfwm4-theme-plastik.tar.gz
