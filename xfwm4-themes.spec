@@ -1,12 +1,12 @@
 Summary: 	Additional themes for xfwm4
 Summary(pl):	Dodatkowe motywy do xfwm4
 Name: 		xfwm4-themes
-Version: 	3.90.0
+Version: 	3.91.0
 Release: 	0.1
 License:	GPL
 Group: 		X11/Applications
 Source0: 	http://dl.sourceforge.net/xfce/%{name}-%{version}.tar.gz
-# Source0-md5:	e15b89a8c7cad7d010f53a590223fb62
+# Source0-md5:	dda2724982cba55a133e0f7e013a9c26
 URL: 		http://www.xfce.org/
 Requires:	xfwm4
 BuildArch:	noarch
