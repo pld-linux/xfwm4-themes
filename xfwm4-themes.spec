@@ -39,11 +39,13 @@ Zbiór dodatkowych tematów dla zarz±dcy okien xfwm4.
 %install
 rm -rf $RPM_BUILD_ROOT
 
+install -d $RPM_BUILD_ROOT%{_datadir}/themes/xfwm4
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 mv plastik-xfce plastik
-cp -a plastik $RPM_BUILD_ROOT%{_datadir}/xfwm4/themes
-cp -a crystal $RPM_BUILD_ROOT%{_datadir}/xfwm4/themes
+cp -a plastik $RPM_BUILD_ROOT%{_datadir}/themes/xfwm4
+cp -a crystal $RPM_BUILD_ROOT%{_datadir}/themes/xfwm4
 
 %clean
 rm -rf $RPM_BUILD_ROOT
