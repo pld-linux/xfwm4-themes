@@ -25,7 +25,7 @@ A set of additional themes for the xfwm4 window manager.
 Zbiór dodatkowych tematów dla zarz±dcy okien xfwm4.
 
 %prep
-%setup -q
+%setup -q -a1 -a2
 
 %build
 %{__aclocal}
@@ -41,6 +41,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+mv plastik-xfce plastik
+cp -a plastik $RPM_BUILD_ROOT%{_datadir}/xfwm4/themes
+cp -a crystal $RPM_BUILD_ROOT%{_datadir}/xfwm4/themes
 
 %clean
 rm -rf $RPM_BUILD_ROOT
