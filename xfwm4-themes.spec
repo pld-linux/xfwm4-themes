@@ -1,7 +1,7 @@
 Summary:	Additional themes for xfwm4
 Summary(pl):	Dodatkowe motywy do xfwm4
 Name:		xfwm4-themes
-Version:	4.3.90.2
+Version:	4.3.99.1
 Release:	1
 License:	GPL
 Group:		X11/Applications
@@ -33,7 +33,6 @@ Zbiór dodatkowych tematów dla zarz±dcy okien xfwm4.
 %{__automake}
 %{__autoconf}
 %configure
-
 %{__make}
 
 %install
@@ -41,6 +40,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+
 mv plastik-xfce plastik
 cp -a plastik $RPM_BUILD_ROOT%{_datadir}/themes
 cp -a crystal $RPM_BUILD_ROOT%{_datadir}/themes
