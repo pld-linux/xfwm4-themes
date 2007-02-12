@@ -1,5 +1,5 @@
 Summary:	Additional themes for xfwm4
-Summary(pl.UTF-8):   Dodatkowe motywy do xfwm4
+Summary(pl.UTF-8):	Dodatkowe motywy do xfwm4
 Name:		xfwm4-themes
 Version:	4.4.0
 Release:	1
