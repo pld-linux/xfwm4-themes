@@ -1,5 +1,5 @@
 Summary:	Additional themes for xfwm4
-Summary(pl):	Dodatkowe motywy do xfwm4
+Summary(pl.UTF-8):   Dodatkowe motywy do xfwm4
 Name:		xfwm4-themes
 Version:	4.3.90.2
 Release:	1
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A set of additional themes for the xfwm4 window manager.
 
-%description -l pl
-Zbiór dodatkowych tematów dla zarz±dcy okien xfwm4.
+%description -l pl.UTF-8
+ZbiÃ³r dodatkowych tematÃ³w dla zarzÄ…dcy okien xfwm4.
 
 %prep
 %setup -q -a1 -a2
