@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://archive.xfce.org/src/art/xfwm4-themes/4.10/%{name}-%{version}.tar.bz2
-# Source0-md5:	4dc5cb29cbd40e3b9dece12a85e20854
+# Source0-md5:	eaa58362053a3549c8be0b32efd3c54f
 Source1:	http://ep09.pld-linux.org/~havner/xfwm4-theme-crystal.tar.gz
 # Source1-md5:	2968f2cb73e8157868dd4ec683bc8e21
 Source2:	http://ep09.pld-linux.org/~havner/xfwm4-theme-plastik.tar.gz
